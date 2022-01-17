@@ -1,0 +1,16 @@
+/* eslint-disable */
+import React from 'react';
+
+class TodoItem extends React.Component { // eslint-disable-line
+  render() {
+    return (
+      <li>
+        <input type="checkbox" />
+        {' '}
+        {this.props.todo.title}
+      </li>
+    );
+  }
+}
+
+export default TodoItem;
