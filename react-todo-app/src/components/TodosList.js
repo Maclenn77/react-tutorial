@@ -1,7 +1,8 @@
+/* eslint-disable */
 import React from 'react';
 import TodoItem from './TodoItem';
 
-class TodosList extends React.Component {
+class TodosList extends React.Component { // eslint-disable-line
   render() {
     return (
       <ul>
